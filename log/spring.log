@@ -1,0 +1,127 @@
+2019-07-04 19:47:35.425  INFO 30181 --- [main] o.s.s.s.SpringBootSampleApplication      : Starting SpringBootSampleApplication on smallone-W65KJ1-KK1 with PID 30181 (/home/smallone/Documents/springlearn/spring-boot-sample/target/classes started by smallone in /home/smallone/Documents/springlearn/spring-boot-sample)
+2019-07-04 19:47:35.427 DEBUG 30181 --- [main] o.s.s.s.SpringBootSampleApplication      : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-04 19:47:35.428  INFO 30181 --- [main] o.s.s.s.SpringBootSampleApplication      : No active profile set, falling back to default profiles: default
+2019-07-04 19:47:36.018  INFO 30181 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-04 19:47:36.066  INFO 30181 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 43ms. Found 1 repository interfaces.
+2019-07-04 19:47:36.347  INFO 30181 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b802c57c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-04 19:47:36.556  INFO 30181 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-07-04 19:47:36.577  INFO 30181 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-07-04 19:47:36.577  INFO 30181 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-04 19:47:36.637  INFO 30181 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-07-04 19:47:36.637 DEBUG 30181 --- [main] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2019-07-04 19:47:36.637  INFO 30181 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1152 ms
+2019-07-04 19:47:36.770  INFO 30181 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-07-04 19:47:36.866  INFO 30181 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-07-04 19:47:36.901  INFO 30181 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-07-04 19:47:36.935  INFO 30181 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2019-07-04 19:47:36.936  INFO 30181 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-07-04 19:47:37.023  INFO 30181 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-07-04 19:47:37.124  INFO 30181 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-07-04 19:47:37.497  INFO 30181 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-07-04 19:47:37.685  INFO 30181 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-07-04 19:47:37.797 DEBUG 30181 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2019-07-04 19:47:37.907  INFO 30181 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-04 19:47:37.915 DEBUG 30181 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2019-07-04 19:47:37.933  WARN 30181 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-07-04 19:47:37.952 DEBUG 30181 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 7 mappings in 'requestMappingHandlerMapping'
+2019-07-04 19:47:37.961 DEBUG 30181 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /templates/**, /static/**] in 'resourceHandlerMapping'
+2019-07-04 19:47:37.968 DEBUG 30181 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2019-07-04 19:47:38.051  INFO 30181 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-07-04 19:47:38.183  INFO 30181 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-07-04 19:47:38.185  INFO 30181 --- [main] o.s.s.s.SpringBootSampleApplication      : Started SpringBootSampleApplication in 3.507 seconds (JVM running for 5.446)
+2019-07-04 19:47:50.438  INFO 30181 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-04 19:47:50.438  INFO 30181 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-07-04 19:47:50.438 DEBUG 30181 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2019-07-04 19:47:50.450 DEBUG 30181 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2019-07-04 19:47:50.451  INFO 30181 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 13 ms
+2019-07-04 19:47:50.457 DEBUG 30181 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/hello", parameters={}
+2019-07-04 19:47:50.462 DEBUG 30181 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public java.lang.String org.springboot.sample.springbootsample.controller.HelloController.hello(javax.servlet.http.HttpServletRequest)
+2019-07-04 19:47:50.489 DEBUG 30181 --- [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Using 'text/html', given [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2019-07-04 19:47:50.489 DEBUG 30181 --- [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Writing ["hello world"]
+2019-07-04 19:47:50.496 DEBUG 30181 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-07-04 19:49:08.887 DEBUG 30181 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/xs/", parameters={}
+2019-07-04 19:49:08.891 DEBUG 30181 --- [http-nio-8080-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2019-07-04 19:49:08.892 DEBUG 30181 --- [http-nio-8080-exec-4] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2019-07-04 19:49:08.893 DEBUG 30181 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2019-07-04 19:49:08.906 DEBUG 30181 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2019-07-04 19:49:08.908 DEBUG 30181 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-07-04 19:49:08.920 DEBUG 30181 --- [http-nio-8080-exec-4] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+2019-07-04 19:49:08.925 DEBUG 30181 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2019-07-04 19:49:20.297 DEBUG 30181 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/xs/", parameters={}
+2019-07-04 19:49:20.299 DEBUG 30181 --- [http-nio-8080-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2019-07-04 19:49:20.301 DEBUG 30181 --- [http-nio-8080-exec-5] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2019-07-04 19:49:20.301 DEBUG 30181 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2019-07-04 19:49:20.302 DEBUG 30181 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2019-07-04 19:49:20.303 DEBUG 30181 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-07-04 19:49:20.307 DEBUG 30181 --- [http-nio-8080-exec-5] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+2019-07-04 19:49:20.308 DEBUG 30181 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2019-07-04 19:49:20.327 DEBUG 30181 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/favicon.ico", parameters={}
+2019-07-04 19:49:20.327 DEBUG 30181 --- [http-nio-8080-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/], class path resource []]
+2019-07-04 19:49:20.348 DEBUG 30181 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-07-04 19:49:46.324  INFO 30181 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-04 19:49:46.326  INFO 30181 --- [Thread-2] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-07-04 19:49:46.329  INFO 30181 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-07-04 19:49:46.364  INFO 30181 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-07-04 19:49:57.323  INFO 30670 --- [main] o.s.s.s.SpringBootSampleApplication      : Starting SpringBootSampleApplication on smallone-W65KJ1-KK1 with PID 30670 (/home/smallone/Documents/springlearn/spring-boot-sample/target/classes started by smallone in /home/smallone/Documents/springlearn/spring-boot-sample)
+2019-07-04 19:49:57.325 DEBUG 30670 --- [main] o.s.s.s.SpringBootSampleApplication      : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-04 19:49:57.326  INFO 30670 --- [main] o.s.s.s.SpringBootSampleApplication      : No active profile set, falling back to default profiles: default
+2019-07-04 19:49:58.021  INFO 30670 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-04 19:49:58.065  INFO 30670 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 38ms. Found 1 repository interfaces.
+2019-07-04 19:49:58.334  INFO 30670 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1dc713fc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-04 19:49:58.547  INFO 30670 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-07-04 19:49:58.569  INFO 30670 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-07-04 19:49:58.569  INFO 30670 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-04 19:49:58.627  INFO 30670 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-07-04 19:49:58.627 DEBUG 30670 --- [main] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2019-07-04 19:49:58.628  INFO 30670 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1218 ms
+2019-07-04 19:49:58.768  INFO 30670 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-07-04 19:49:58.888  INFO 30670 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-07-04 19:49:58.922  INFO 30670 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-07-04 19:49:58.956  INFO 30670 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2019-07-04 19:49:58.957  INFO 30670 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-07-04 19:49:59.057  INFO 30670 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-07-04 19:49:59.140  INFO 30670 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-07-04 19:49:59.492  INFO 30670 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-07-04 19:49:59.675  INFO 30670 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-07-04 19:49:59.810 DEBUG 30670 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2019-07-04 19:49:59.923  INFO 30670 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-04 19:49:59.931 DEBUG 30670 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2019-07-04 19:49:59.950  WARN 30670 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-07-04 19:49:59.969 DEBUG 30670 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 7 mappings in 'requestMappingHandlerMapping'
+2019-07-04 19:49:59.978 DEBUG 30670 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /templates/**, /static/**] in 'resourceHandlerMapping'
+2019-07-04 19:49:59.985 DEBUG 30670 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2019-07-04 19:50:00.028  INFO 30670 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-07-04 19:50:00.181  INFO 30670 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-07-04 19:50:00.185  INFO 30670 --- [main] o.s.s.s.SpringBootSampleApplication      : Started SpringBootSampleApplication in 3.494 seconds (JVM running for 4.519)
+2019-07-04 19:51:03.601  INFO 30670 --- [http-nio-8080-exec-5] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-04 19:51:03.603  INFO 30670 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-07-04 19:51:03.603 DEBUG 30670 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2019-07-04 19:51:03.619 DEBUG 30670 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2019-07-04 19:51:03.620  INFO 30670 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed initialization in 17 ms
+2019-07-04 19:51:03.623 DEBUG 30670 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/score/socreList", parameters={}
+2019-07-04 19:51:03.629 DEBUG 30670 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public java.util.List<org.springboot.sample.springbootsample.entity.Score> org.springboot.sample.springbootsample.controller.ScoreController.getScoreList()
+2019-07-04 19:51:03.642  INFO 30670 --- [http-nio-8080-exec-5] o.s.s.s.controller.ScoreController       : 从数据库读取Score集合
+2019-07-04 19:51:03.699  INFO 30670 --- [http-nio-8080-exec-5] o.s.s.s.controller.ScoreController       : 更新的行数：1
+2019-07-04 19:51:03.728 DEBUG 30670 --- [http-nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json;q=0.8', given [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+2019-07-04 19:51:03.729 DEBUG 30670 --- [http-nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Writing [[org.springboot.sample.springbootsample.entity.Score@228b2a90]]
+2019-07-04 19:51:03.753 DEBUG 30670 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-07-04 19:52:59.173 DEBUG 30670 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/stu/list", parameters={}
+2019-07-04 19:52:59.175 DEBUG 30670 --- [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public java.util.List<org.springboot.sample.springbootsample.entity.Student> org.springboot.sample.springbootsample.controller.StudentController.getStus()
+2019-07-04 19:52:59.180  INFO 30670 --- [http-nio-8080-exec-8] o.s.s.s.controller.StudentController     : 从数据库读取Student集合
+2019-07-04 19:52:59.194 DEBUG 30670 --- [http-nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json;q=0.8', given [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+2019-07-04 19:52:59.194 DEBUG 30670 --- [http-nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Writing [[org.springboot.sample.springbootsample.entity.Student@27b7be11, org.springboot.sample.springbootsam (truncated)...]
+2019-07-04 19:52:59.211 DEBUG 30670 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-07-04 19:54:17.251 DEBUG 30670 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/img/pic1.jpg", parameters={}
+2019-07-04 19:54:17.261 DEBUG 30670 --- [http-nio-8080-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2019-07-04 19:54:17.274 DEBUG 30670 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-07-04 19:54:20.323 DEBUG 30670 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/templates/index.html", parameters={}
+2019-07-04 19:54:20.335 DEBUG 30670 --- [http-nio-8080-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/templates/"]
+2019-07-04 19:54:20.341 DEBUG 30670 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-07-04 19:54:30.755  INFO 30670 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-04 19:54:30.756  INFO 30670 --- [Thread-2] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-07-04 19:54:30.757  INFO 30670 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-07-04 19:54:30.762  INFO 30670 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
